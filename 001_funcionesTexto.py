@@ -1,5 +1,8 @@
+#INGRESO DE DATOS
 usuario = input("Ingrese Usuario: ")
 password = input("Ingrese Contraseña: ")
+
+#CONDICIONES DE PASSWORD
 if password.isalnum() and len(password) == 8:
     print("Contraseña VALIDA")
 else:
