@@ -9,6 +9,7 @@ for m in range(5):
     if numeritos[m] > mayor:
         mayor = numeritos[m]
 
+mayor2 = max(numeritos)
 print("Los numeritos son: ", numeritos)
 print("El Mayor de los Numeritos es: ", mayor)
 print("El Mayor segun max es: ", mayor2)
